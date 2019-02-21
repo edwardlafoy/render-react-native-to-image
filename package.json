@@ -15,7 +15,8 @@
     "test": "jest",
     "watch": "tsc --watch",
     "lint": "tslint '{src,jest}/**/*.{ts,tsx}'",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "postinstall": "npm run build --scripts-prepend-node-path"
   },
   "lint-staged": {
     "*.@(ts|tsx)": [
