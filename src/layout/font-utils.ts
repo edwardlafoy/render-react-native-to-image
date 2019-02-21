@@ -1,4 +1,4 @@
-import * as fontManager from "font-manager"
+import * as fontManager from "font-scanner"
 import * as fontkit from "fontkit"
 import * as fs from "fs"
 import {FontCache} from './'
