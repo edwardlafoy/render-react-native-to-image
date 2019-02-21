@@ -50,6 +50,7 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "@types/node": "^10.9.4",
     "canvas": "2.0.0-alpha.9",
     "font-scanner": "^0.1.1",
     "fontkit": "^1.7.7",
@@ -57,13 +58,13 @@
     "linebreak": "^0.3.0",
     "nbind": "^0.3.12",
     "node-fetch": "^2.0.0",
+    "typescript": "^3.0.3",
     "yoga-layout": "^1.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@types/jest": "^23.3.1",
-    "@types/node": "^10.9.4",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^23.4.2",
     "danger": "^3.8.8",
@@ -76,7 +77,6 @@
     "react-test-renderer": "^16.4.1",
     "ts-jest": "^23.1.4",
     "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "tslint": "^5.11.0"
   }
 }

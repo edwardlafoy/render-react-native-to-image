@@ -17,6 +17,7 @@
         "dangerfile.ts"
     ],
     "exclude": [
+        "src/__tests__",
         "node_modules",
         "build",
         "dangerfile.ts"
