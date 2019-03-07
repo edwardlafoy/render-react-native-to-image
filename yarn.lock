@@ -1751,11 +1751,13 @@ camelcase@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
 
-canvas@2.0.0-alpha.9:
-  version "2.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/canvas/-/canvas-2.0.0-alpha.9.tgz#b0b3d9b1aa00f686e8d260bc172c80f6d06af0f8"
+canvas@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/canvas/-/canvas-2.3.1.tgz#da0c8a916505aa34f9365d6b77d28b969241bfd0"
+  integrity sha512-jSxwf4V9AGD6t6yBC600xFZKjrfKTR0T0RUNlX/AODs/ifrfJHIQjFEK8iF2euNy6z7K3GNv82DJgTjYZZktqA==
   dependencies:
-    nan "^2.4.0"
+    nan "^2.12.1"
+    node-pre-gyp "^0.11.0"
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -2659,11 +2661,12 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-font-manager@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/font-manager/-/font-manager-0.2.2.tgz#18a1c5b6ec7f91e22a17c71cbbaa0ea4e68e3a44"
+font-scanner@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/font-scanner/-/font-scanner-0.1.1.tgz#88632ec9d5163a3fb4b963f24f1f2427b6667af8"
+  integrity sha512-vSryfXML53dHrIUT/LAxKuxit9ynrDCL4CPfgvh698cTsbGpHYmgGa7eBQTnWvNFgkDFDY1PeXtIFRpbp0ViRw==
   dependencies:
-    nan "~2.2.0"
+    nan ">=2.10.0"
 
 fontkit@^1.7.7:
   version "1.7.7"
@@ -4535,13 +4538,14 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-nan@^2.4.0, nan@^2.9.2:
+nan@>=2.10.0, nan@^2.12.1:
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.12.1.tgz#7b1aa193e9aa86057e3c7bbd0ac448e770925552"
+  integrity sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
+
+nan@^2.9.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.0.tgz#574e360e4d954ab16966ec102c0c049fd961a099"
-
-nan@~2.2.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.2.1.tgz#d68693f6b34bb41d66bc68b3a4f9defc79d7149b"
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -4635,6 +4639,22 @@ node-notifier@^5.2.1:
 node-pre-gyp@^0.10.0:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.3.tgz#3070040716afdc778747b61b6887bf78880b80fc"
+  dependencies:
+    detect-libc "^1.0.2"
+    mkdirp "^0.5.1"
+    needle "^2.2.1"
+    nopt "^4.0.1"
+    npm-packlist "^1.1.6"
+    npmlog "^4.0.2"
+    rc "^1.2.7"
+    rimraf "^2.6.1"
+    semver "^5.3.0"
+    tar "^4"
+
+node-pre-gyp@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.11.0.tgz#db1f33215272f692cd38f03238e3e9b47c5dd054"
+  integrity sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==
   dependencies:
     detect-libc "^1.0.2"
     mkdirp "^0.5.1"

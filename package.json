@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@types/node": "^10.9.4",
-    "canvas": "2.0.0-alpha.9",
+    "canvas": "^2.3.1",
     "font-scanner": "^0.1.1",
     "fontkit": "^1.7.7",
     "image-size": "^0.6.2",
